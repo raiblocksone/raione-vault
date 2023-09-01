@@ -1,10 +1,10 @@
-# RaiOne
+# RaiOne-Vault
 
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/raiblocksone/raione-vault)
 [![GitHub All Releases](https://img.shields.io/github/downloads/raiblocksone/raione-vault/total)](https://github.com/raiblocksone/raione-vault/releases/latest)
 [![Discord](https://img.shields.io/badge/discord-join%20chat-orange.svg?logo=discord&color=7289DA)](https://discord.gg/RRMh2s8ZWT)
 
-RaiOne-Vault is a community driven fork of the popular nano wallet [Nault](https://github.com/nault/nault) 💙
+RaiOne-Vault is a community driven fork of the popular nano wallet [RaiOne-Vault](https://github.com/raiblocksone/raione-vault) 💙
 
 It's a fully client-side signing wallet for sending and receiving [RaiblocksOne](https://github.com/raiblocksone/raiblocksone-node/) either directly in your browser at [vault.raione.cc](https://vault.raione.cc) or with the [desktop app](https://github.com/raiblocksone/raione-vault/releases/latest).
 
@@ -26,13 +26,7 @@ If you want to verify the binary checksum there are plenty of apps to do this. O
 Then compare the output hash with the one listed in the corresponding checksums file that you download.
 
 #### Web App
-You can also use Nault from any device on the web at [vault.raione.cc](https://vault.raione.cc).
-
-Both the desktop (recommended) and web version supports the Ledger Nano hardware wallet. For help using it, please refer to [this guide](https://docs.nault.cc/2020/08/04/ledger-guide.html).
-
-(not yet) The web version can additionally be pulled from the [dockerhub repo](https://hub.docker.com/r/nault/nault) using: docker pull nault/nault:latest
-
-A full security guide and other useful articles can be found in the [Nault Docs](https://docs.nault.cc).
+You can also use RaiOne-Vault from any device on the web at [vault.raione.cc](https://vault.raione.cc).
 
 #### Mobile App
 There is no native mobile app but the web wallet contains a Progressive Web App (PWA). That allows you to run it in offline mode for remote-signing.

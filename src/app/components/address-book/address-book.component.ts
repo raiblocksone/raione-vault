@@ -377,7 +377,7 @@ export class AddressBookComponent implements OnInit, AfterViewInit, OnDestroy {
   async exportAddressBook() {
     const exportData = this.addressBookService.addressBook;
     const base64Data = btoa(this.toBinary(JSON.stringify(exportData)));
-    const exportUrl = `https://nault.cc/import-address-book#${base64Data}`;
+    const exportUrl = `https://vault.raione.cc/import-address-book#${base64Data}`;
     this.addressBookQRExportUrl = exportUrl;
     this.addressBookShowFileExport = true;
 
@@ -388,7 +388,7 @@ export class AddressBookComponent implements OnInit, AfterViewInit, OnDestroy {
   }
 
   exportAddressBookToFile() {
-    const fileName = `Nault-AddressBook.json`;
+    const fileName = `RaiOne-Vault-AddressBook.json`;
 
     const exportData = this.addressBookService.addressBook;
     this.triggerFileDownload(fileName, exportData);
@@ -408,7 +408,7 @@ export class AddressBookComponent implements OnInit, AfterViewInit, OnDestroy {
       try {
         const importData = JSON.parse(fileData);
         if (!importData.length || !importData[0].account) {
-          return this.notificationService.sendError(this.translocoService.translate('address-book.bad-import-data-make-sure-you-selected-a-nault-address-book'));
+          return this.notificationService.sendError(this.translocoService.translate('address-book.bad-import-data-make-sure-you-selected-a-raione-vault-address-book'));
         }
 
         const encoded = btoa(this.toBinary(JSON.stringify(importData)));
