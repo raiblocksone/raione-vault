@@ -1,6 +1,6 @@
 import { AppPage } from './app.po';
 
-describe('Nault App', () => {
+describe('RaiOne-Vault App', () => {
   let page: AppPage;
 
   beforeEach(() => {
