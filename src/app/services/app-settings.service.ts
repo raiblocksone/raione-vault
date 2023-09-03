@@ -70,7 +70,7 @@ export class AppSettingsService {
       shouldRandom: false,
     },
     {
-      name: 'Vault RaiOne',
+      name: 'RaiOne-Vault',
       value: 'raione-vault',
       api: 'https://api.raione.cc/api',
       ws: 'wss://ws.raione.cc/ws',
