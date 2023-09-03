@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1693726795948,
+  "timestamp": 1693729559411,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -13,11 +13,11 @@
       "urls": [
         "/cpupow.1b0c7179f5d0d4bc.worker.js",
         "/index.html",
-        "/main.4b91f8c835946760.js",
+        "/main.505c4a838259486f.js",
         "/manifest.webmanifest",
         "/polyfills.6ff8b11604869675.js",
         "/runtime.89dd540e7e2e2089.js",
-        "/styles.de1fe1fcecfeca54.css",
+        "/styles.05cee8027d681327.css",
         "/translation0.560177baba07ff80.js",
         "/translation1.0c08d3f61394c0e7.js"
       ],
@@ -141,7 +141,6 @@
         "/open-sans-v20-latin-regular.9afa6b0f58199011.woff",
         "/open-sans-v20-latin-regular.e12beb98cfee8b95.ttf",
         "/qr-code.b97e9eeb5e6f1567.svg",
-        "/raiblocksone-logo.776d069dbaf0b91e.png",
         "/raiblocksone-logo_dark.9eecbc97c5ee6386.png",
         "/roboto-mono-v13-latin-regular.5ebb8c5b1b99813a.woff",
         "/roboto-mono-v13-latin-regular.72a36365d70383c3.woff2",
@@ -262,8 +261,8 @@
     "/assets/logo_source/nault-logo.eps": "a2147e36015ef5497c846a0b74dfb2a4828fd2cd",
     "/assets/logo_source/nault-logo.svg": "d9682092a80a1e825c646a1e7cebd8e4e9aead49",
     "/cpupow.1b0c7179f5d0d4bc.worker.js": "2d8ac5de31b8bbdad4a3118f49e1b4397a559f44",
-    "/index.html": "891d04b5ec3c22310a187d4219ed093ef80376d4",
-    "/main.4b91f8c835946760.js": "464def49a334248851fb14b4fff6132e81d66c25",
+    "/index.html": "8201fbee4da6fcbb46920ec312e4d8784a9ebb32",
+    "/main.505c4a838259486f.js": "f72473e965351c124c8af6f995709f5e9b616821",
     "/manifest.webmanifest": "fb9ce0116a92808e43c4203fa61fdcb255708437",
     "/montserrat-v15-latin-300.169464b41fd5a6ed.woff2": "cf6855b4b8fd9b7fc4d7adecd97080a70ad75c23",
     "/montserrat-v15-latin-300.1fb23400394501d6.eot": "79ffc50c09de54d30478eb89c6984bbcb41ba5f9",
@@ -297,7 +296,6 @@
     "/open-sans-v20-latin-regular.e12beb98cfee8b95.ttf": "3b0b17c64586286b6f5e894b398086fbd9dd8ecf",
     "/polyfills.6ff8b11604869675.js": "4f871ba19b72fa33c50377b7b6aa2c9153519869",
     "/qr-code.b97e9eeb5e6f1567.svg": "a694020661b8f41d2b6a4eb4ffb98243a0cb9ab9",
-    "/raiblocksone-logo.776d069dbaf0b91e.png": "f20605f550fc9ed7ee481a49c018443ae129b4d1",
     "/raiblocksone-logo_dark.9eecbc97c5ee6386.png": "caa0906ed6f52c4ec49ef3aa1cb93caa7814aa01",
     "/roboto-mono-v13-latin-regular.5ebb8c5b1b99813a.woff": "3f1bdd2cb69992c6cbf901c013c80302f4f6d54e",
     "/roboto-mono-v13-latin-regular.72a36365d70383c3.woff2": "6bdf57408a458ab19e554ed1cec1f73107dae3ce",
@@ -305,7 +303,7 @@
     "/roboto-mono-v13-latin-regular.898c8f1605bccd5e.ttf": "78b1b85542fec9c2239186aa495e2aa944456577",
     "/roboto-mono-v13-latin-regular.cecd954c0606bb3f.svg": "23049436a09c54fd366e30d8da2d14ecdc561afe",
     "/runtime.89dd540e7e2e2089.js": "c418b3479b1e836c65fcbf3aafbe78ce99f5e290",
-    "/styles.de1fe1fcecfeca54.css": "348ae5ee7257d914e7027fa32ae47f6380a579a8",
+    "/styles.05cee8027d681327.css": "9dd11fc97df751f7d6d82e52e67e07b27c00b682",
     "/translation0.560177baba07ff80.js": "4255f98b8300f023ff5026b3a4bcaeff2af8f810",
     "/translation1.0c08d3f61394c0e7.js": "c037e9827061f0026a4bebfd12d035abd4fda1ff",
     "/xno-symbol.bfd57e1aa36ecd51.svg": "d53b25174a7d10362fb6f3f1a8c6f64eaf9b1fa2"
