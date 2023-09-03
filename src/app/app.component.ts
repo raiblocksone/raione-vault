@@ -204,7 +204,7 @@ export class AppComponent implements OnInit {
       if (!this.settings.settings.serverAPI) return;
       await this.updateFiatPrices();
     } catch (err) {
-      this.notifications.sendWarning(`There was an issue retrieving latest nano price.  Ensure your AdBlocker is disabled on this page then reload to see accurate FIAT values.`, { length: 0, identifier: `price-adblock` });
+      this.notifications.sendWarning(`There was an issue retrieving latest RaiblocksOne price.  Ensure your AdBlocker is disabled on this page then reload to see accurate FIAT values.`, { length: 0, identifier: `price-adblock` });
     }
   }
 
@@ -324,7 +324,7 @@ export class AppComponent implements OnInit {
       return;
     }
 
-    this.notifications.sendWarning(`Invalid nano address or block hash! Please double check your input`);
+    this.notifications.sendWarning(`Invalid RaiblocksOne address or block hash! Please double check your input`);
   }
 
   updateIdleTime() {
@@ -337,7 +337,7 @@ export class AppComponent implements OnInit {
       return;
     }
     this.walletService.reloadBalances();
-    this.notifications.sendInfo(`Attempting to reconnect to nano node`);
+    this.notifications.sendInfo(`Attempting to reconnect to RaiblocksOne node`);
   }
 
   async updateFiatPrices() {

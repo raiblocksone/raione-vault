@@ -2,7 +2,7 @@
   "name": "nault",
   "version": "1.18.2",
   "license": "MIT",
-  "description": "Wallet for interacting with nano",
+  "description": "Wallet for interacting with RaiblocksOne",
   "author": "The Nano Community / Andrew Steele",
   "main": "desktop-app/dist/desktop-app.js",
   "scripts": {
@@ -143,7 +143,7 @@
       "target": "AppImage",
       "icon": "desktop-app/assets/linux",
       "desktop": {
-        "GenericName": "Nano Wallet"
+        "GenericName": "RaiblocksOne Wallet"
       }
     },
     "protocols": {

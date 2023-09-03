@@ -4,13 +4,11 @@
 [![GitHub All Releases](https://img.shields.io/github/downloads/raiblocksone/raione-vault/total)](https://github.com/raiblocksone/raione-vault/releases/latest)
 [![Discord](https://img.shields.io/badge/discord-join%20chat-orange.svg?logo=discord&color=7289DA)](https://discord.gg/RRMh2s8ZWT)
 
-RaiOne-Vault is a community driven fork of the popular nano wallet [RaiOne-Vault](https://github.com/raiblocksone/raione-vault) 💙
+RaiOne-Vault is a community driven fork of the popular nano wallet [Nault](https://github.com/Nault/Nault) 💙
 
 It's a fully client-side signing wallet for sending and receiving [RaiblocksOne](https://github.com/raiblocksone/raiblocksone-node/) either directly in your browser at [vault.raione.cc](https://vault.raione.cc) or with the [desktop app](https://github.com/raiblocksone/raione-vault/releases/latest).
 
-Seamless integration with any nano compatible RPC backend/websocket and the aim to be more frequently maintained are some of the main features. Those together will greatly increase the stability, performance and uptime.
-
-![RaiOne-Vault Screenshot](/src/assets/img/preview.png)
+Seamless integration with any RaiblocksOne compatible RPC backend/websocket and the aim to be more frequently maintained are some of the main features. Those together will greatly increase the stability, performance and uptime.
 ___
 
 ## How To Use

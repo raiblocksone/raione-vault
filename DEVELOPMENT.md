@@ -3,7 +3,7 @@
 ## Application Structure
 
 - [RaiOne-Vault](https://github.com/raiblocksone/raione-vault) - The main wallet application (UI + Seed Generation/Block Signing/Etc).
-- Communication with the network is done via nano RPC and Websocket protocols, private or public on any nano network.
+- Communication with the network is done via RaiblocksOne RPC and Websocket protocols, private or public on any RaiblocksOne network.
 
 ## Development Prerequisites
 - [NodeJS](https://nodejs.org) v16.x + NPM v8.x
