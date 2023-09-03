@@ -110,19 +110,19 @@
     "checking-status": "Checking Status...",
     "good-representative": "Good Representative",
     "health": "Health",
-    "it-is-highly-advised-to-switch-to-a-different-representative": "It is highly advised to switch to a different representative, in order to improve security and decentralization of the nano network.",
+    "it-is-highly-advised-to-switch-to-a-different-representative": "It is highly advised to switch to a different representative, in order to improve security and decentralization of the RaiblocksOne network.",
     "receive-a-transaction-to-configure": "Receive a transaction to configure",
-    "rep-represents-you": "{{ name }} represents you in the nano consensus protocol by voting on your behalf.",
+    "rep-represents-you": "{{ name }} represents you in the RaiblocksOne consensus protocol by voting on your behalf.",
     "representative-change-required": "Representative Change Required",
     "representative-for-account": "Representative for {{ account }}",
     "representative-none": "None",
-    "switching-to-a-different-representative-could-improve": "Switching to a different representative could improve security and decentralization of the nano network.",
+    "switching-to-a-different-representative-could-improve": "Switching to a different representative could improve security and decentralization of the RaiblocksOne network.",
     "this-representative-has-a-high-voting-weight": "This representative has a high voting weight (over {{ percent }}%).",
     "this-representative-has-a-very-high-voting-weight": "This representative has a very high voting weight (over {{ percent }}%).",
     "this-representative-has-announced-plans-to-permanently-shutdown": "This representative has announced plans to permanently shutdown.",
     "this-representative-has-been-offline-for-the-past-days": "This representative has been offline for the past {{ days }} days.",
     "this-representative-is-marked-as-avoid": "This representative is marked as \"avoid\" in the representatives book.",
-    "this-representative-is-marked-as-nf": "This representative was created by the Nano Foundation and should be avoided to increase decentralization.",
+    "this-representative-is-marked-as-nf": "This representative was created by the RaiblocksOne Foundation and should be avoided to increase decentralization.",
     "this-representative-is-often-offline": "This representative is often offline ({{ percent }}% uptime)",
     "this-representative-is-sometimes-offline": "This representative is sometimes offline ({{ percent }}% uptime).",
     "unknown-rep": "Unknown Rep",
@@ -143,7 +143,7 @@
     "change-if-your-wallet-should-be-locked-automatically-after": "Change if your wallet should be locked automatically after you have not interacted with it for a certain period of time",
     "change-the-currency-pair-used-when-showing-fiat-values": "Change the currency pair used when showing fiat values in the application. Select None to hide fiat pairs.",
     "change-where-your-wallet-is-stored-if-you-select-none-your": "Change where your wallet is stored. If you select none, your wallet is reset every time you reload.",
-    "change-which-server-is-used-to-communicate-with-the-nano": "Change which server is used to communicate with the nano network",
+    "change-which-server-is-used-to-communicate-with-the-nano": "Change which server is used to communicate with the RaiblocksOne network",
     "clear-all-data": {
       "1": "You are about to delete all data stored in RaiOne-Vault, which includes all locally stored data about your currently configured wallet, all entries from your address and representative books, and any other cached data. All settings will be reset to default.",
       "successfully-deleted-locally-stored-data-and-reset-the": "Successfully deleted locally stored data and reset the settings!"
@@ -233,21 +233,21 @@
     "this-has-to-be-a-valid-authorization-header": "This has to be a valid Authorization header.",
     "this-has-to-be-a-valid-rpc": {
       "1": "This has to be a valid",
-      "2-link-rpc": "nano RPC endpoint",
+      "2-link-rpc": "RaiblocksOne RPC endpoint",
       "3": "or an API compliant with it."
     },
     "this-has-to-be-a-valid-websocket": {
       "1": "This has to be a valid",
-      "2-link-websocket": "Nano Node Websocket",
+      "2-link-websocket": "RaiblocksOne Node Websocket",
       "3": "or a WebSocket API compliant with it."
     },
     "this-has-to-be-a-valid-work": {
       "1": "This has to be a valid",
-      "2-link-work": "Nano Work Server",
+      "2-link-work": "RaiblocksOne Work Server",
       "3": "endpoint or an API compliant with it. If your server on localhost does not work, try the desktop app instead."
     },
     "this-representative-will-be-used-for-any-new-account": "This representative will be used for any new account",
-    "this-server-is-used-for-rpc-communication-with-the-nano-node": "This server is used for RPC communication with the nano node",
+    "this-server-is-used-for-rpc-communication-with-the-nano-node": "This server is used for RPC communication with the RaiblocksOne node",
     "this-server-is-used-to-notify-the-wallet-in-real-time-when": "This server is used to notify the wallet in real time when new transactions arrive",
     "this-will-delete-all-data-related-to-your-wallet-your-seed-a": "This will delete all data related to your wallet (Your seed and accounts)",
     "this-will-delete-all-locally-cached-proof-of-work-values": "This will delete all locally cached Proof of Work values",
