@@ -436,9 +436,9 @@ export class SignComponent implements OnInit {
     }
 
     if (this.txType === TxType.send || this.txType === TxType.change) {
-      this.signatureAccount = this.fromAccountID.replace('xrb_', 'nano_').toLowerCase();
+      this.signatureAccount = this.fromAccountID.replace('nano_', 'xrb_').toLowerCase();
     } else if (this.txType === TxType.receive || this.txType === TxType.open) {
-      this.signatureAccount = this.toAccountID.replace('xrb_', 'nano_').toLowerCase();
+      this.signatureAccount = this.toAccountID.replace('nano_', 'xrb_').toLowerCase();
     }
 
     if (this.shouldSign) {

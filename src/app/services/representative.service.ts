@@ -375,8 +375,8 @@ export class RepresentativeService {
     const list = JSON.parse(representativeStore);
 
     const newRepList = list.map(entry => {
-      if (entry.id.indexOf('xrb_') !== -1) {
-        entry.id = entry.id.replace('xrb_', 'nano_');
+      if (entry.id.indexOf('nano_') !== -1) {
+        entry.id = entry.id.replace('nano_', 'xrb_');
       }
       return entry;
     });
@@ -459,6 +459,7 @@ export class RepresentativeService {
   // Bad representatives hardcoded to be avoided. Not visible in the user rep list
   // eslint-disable-next-line @typescript-eslint/member-ordering
   nfReps = [
+    /*
     {
       id: 'nano_3arg3asgtigae3xckabaaewkx3bzsh7nwz7jkmjos79ihyaxwphhm6qgjps4',
       name: 'Nano Foundation #1',
@@ -491,6 +492,7 @@ export class RepresentativeService {
       id: 'nano_1hza3f7wiiqa7ig3jczyxj5yo86yegcmqk3criaz838j91sxcckpfhbhhra1',
       name: 'Nano Foundation #8',
     },
+    */
   ];
 
 }
