@@ -259,8 +259,8 @@ export class SweeperComponent implements OnInit {
       const block = nanocurrency.createBlock(privKey, {balance: '0', representative: this.representative,
       work: work, link: this.destinationAccount, previous: previous});
       // replace xrb with nano (old library)
-      block.block.account = block.block.account.replace('xrb', 'nano');
-      block.block.link_as_account = block.block.link_as_account.replace('xrb', 'nano');
+      block.block.account = block.block.account.replace('nano', 'xrb');
+      block.block.link_as_account = block.block.link_as_account.replace('nano', 'xrb');
 
       // publish block for each iteration
       const data = await this.api.process(block.block, TxType.send);
@@ -309,8 +309,8 @@ export class SweeperComponent implements OnInit {
       const block = nanocurrency.createBlock(this.privKey, {balance: this.adjustedBalance, representative: this.representative,
       work: work, link: key, previous: this.previous});
       // replace xrb with nano (old library)
-      block.block.account = block.block.account.replace('xrb', 'nano');
-      block.block.link_as_account = block.block.link_as_account.replace('xrb', 'nano');
+      block.block.account = block.block.account.replace('nano', 'xrb');
+      block.block.link_as_account = block.block.link_as_account.replace('nano', 'xrb');
       // new previous
       this.previous = block.hash;
 

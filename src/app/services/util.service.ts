@@ -346,7 +346,7 @@ function getAccountPublicKey(account) {
 
 function setPrefix(account, prefix = 'xrb') {
   if (prefix === 'nano') {
-    return account.replace('xrb_', 'nano_');
+    return account.replace('nano_', 'xrb_');
   } else {
     return account.replace('nano_', 'xrb_');
   }

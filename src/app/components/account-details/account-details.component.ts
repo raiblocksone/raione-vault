@@ -1090,7 +1090,7 @@ export class AccountDetailsComponent implements OnInit, OnDestroy {
     const newBalanceDecimal = newBalance.toString(10);
 
     const blockData = {
-      account: this.accountID.replace('xrb_', 'nano_').toLowerCase(),
+      account: this.accountID.replace('nano_', 'xrb_').toLowerCase(),
       previous: previousBlock,
       representative: representative,
       balance: newBalanceDecimal,
@@ -1155,7 +1155,7 @@ export class AccountDetailsComponent implements OnInit, OnDestroy {
     const balance = new BigNumber(account.balance);
     const balanceDecimal = balance.toString(10);
     const blockData = {
-      account: this.accountID.replace('xrb_', 'nano_').toLowerCase(),
+      account: this.accountID.replace('nano_', 'xrb_').toLowerCase(),
       previous: account.frontier,
       representative: this.representativeModel,
       balance: balanceDecimal,
