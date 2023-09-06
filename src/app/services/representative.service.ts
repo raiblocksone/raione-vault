@@ -454,7 +454,20 @@ export class RepresentativeService {
 
   // Default representatives list
   // eslint-disable-next-line @typescript-eslint/member-ordering
-  defaultRepresentatives = [];
+  defaultRepresentatives = [
+    {
+      id: 'xrb_17xnzfitcg476uezh5ttso54f3i674hynr88jynoyonoi3i6a5ncrh6xd9tj',
+      name: 'RaiOne-Vault #1',
+    },
+    {
+      id: 'xrb_1bt73fm1dwd5ibbgr465buzouomsth979e43jy9d3dsengogiwcngxmigigp',
+      name: 'RaiOne-Vault #2',
+    },
+    {
+      id: 'xrb_3qn4pwex9bx3jy34jg6ogxxngwq3fmb13trs78weybwbe9fg5msgehj9qrcn',
+      name: 'RaiblocksOne #1',
+    },
+  ];
 
   // Bad representatives hardcoded to be avoided. Not visible in the user rep list
   // eslint-disable-next-line @typescript-eslint/member-ordering
