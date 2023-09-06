@@ -9,7 +9,7 @@ export type LedgerConnectionType = 'usb'|'bluetooth';
 interface AppSettings {
   language: string;
   displayDenomination: string;
-  // displayPrefix: string | null;
+  displayPrefix: string | null;
   walletStore: string;
   displayCurrency: string;
   defaultRepresentative: string | null;
@@ -38,7 +38,7 @@ export class AppSettingsService {
   settings: AppSettings = {
     language: null,
     displayDenomination: 'mnano',
-    // displayPrefix: 'xrb',
+    displayPrefix: 'xrb',
     walletStore: 'localStorage',
     displayCurrency: 'USD',
     defaultRepresentative: null,
@@ -192,7 +192,7 @@ export class AppSettingsService {
     this.settings = {
       language: 'en',
       displayDenomination: 'mnano',
-      // displayPrefix: 'xrb',
+      displayPrefix: 'xrb',
       walletStore: 'localStorage',
       displayCurrency: 'USD',
       defaultRepresentative: null,

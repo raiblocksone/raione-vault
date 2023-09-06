@@ -154,11 +154,11 @@ export class ConfigureAppComponent implements OnInit {
   ];
   selectedDecentralizedAliasesOption = this.decentralizedAliasesOptions[0].value;
 
-  // prefixOptions = [
-  //   { name: 'xrb_', value: 'xrb' },
-  //   { name: 'nano_', value: 'nano' },
-  // ];
-  // selectedPrefix = this.prefixOptions[0].value;
+  prefixOptions = [
+     { name: 'xrb_', value: 'xrb' },
+     //{ name: 'nano_', value: 'nano' },
+     ];
+  selectedPrefix = this.prefixOptions[0].value;
 
   serverOptions = [];
   selectedServer = null;
@@ -319,7 +319,7 @@ export class ConfigureAppComponent implements OnInit {
     this.appSettings.setAppSetting('identiconsStyle', this.selectedIdenticonOption);
 
     const newCurrency = this.selectedCurrency;
-    // const updatePrefixes = this.appSettings.settings.displayPrefix !== this.selectedPrefix;
+    const updatePrefixes = this.appSettings.settings.displayPrefix !== this.selectedPrefix;
     const reloadFiat = this.appSettings.settings.displayCurrency !== newCurrency;
     this.notifications.sendSuccess(this.translocoService.translate('configure-app.app-display-settings-successfully-updated'));
 
@@ -333,19 +333,19 @@ export class ConfigureAppComponent implements OnInit {
     this.appSettings.setAppSetting('language', this.selectedLanguage);
     this.translocoService.setActiveLang(this.selectedLanguage);
 
-    // if (updatePrefixes) {
-    //   this.appSettings.setAppSetting('displayPrefix', this.selectedPrefix);
+     if (updatePrefixes) {
+       this.appSettings.setAppSetting('displayPrefix', this.selectedPrefix);
       // Go through accounts?
-      // this.wallet.accounts.forEach(account => {
-      //   account.id = this.util.account.setPrefix(account.id, this.selectedPrefix);
-      // });
-      // this.walletService.saveWalletExport();
+       this.wallet.accounts.forEach(account => {
+         account.id = this.util.account.setPrefix(account.id, this.selectedPrefix);
+       });
+       this.walletService.saveWalletExport();
       //
-      // this.addressBook.addressBook.forEach(entry => {
-      //   entry.account = this.util.account.setPrefix(entry.account, this.selectedPrefix);
-      // });
-      // this.addressBook.saveAddressBook();
-    // }
+       this.addressBook.addressBook.forEach(entry => {
+         entry.account = this.util.account.setPrefix(entry.account, this.selectedPrefix);
+       });
+       this.addressBook.saveAddressBook();
+     }
 
   }
 
