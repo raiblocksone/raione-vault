@@ -298,7 +298,7 @@ export class ReceiveComponent implements OnInit, OnDestroy {
     if (account.length > 1) {
       this.qrAccount = account;
       this.qrCodeImage = null;
-      this.qrCodeUri = `nano:${account}${this.qrAmount ? `?amount=${this.qrAmount.toString(10)}` : ''}`;
+      this.qrCodeUri = `xrb:${account}${this.qrAmount ? `?amount=${this.qrAmount.toString(10)}` : ''}`;
       qrCode = await QRCode.toDataURL(this.qrCodeUri, {scale: 7});
     }
     this.qrCodeImage = qrCode;
@@ -314,7 +314,7 @@ export class ReceiveComponent implements OnInit, OnDestroy {
     }
     if (this.qrAccount.length > 1) {
       this.qrCodeImage = null;
-      this.qrCodeUri = `nano:${this.qrAccount}${this.qrAmount ? `?amount=${this.qrAmount.toString(10)}` : ''}`;
+      this.qrCodeUri = `xrb:${this.qrAccount}${this.qrAmount ? `?amount=${this.qrAmount.toString(10)}` : ''}`;
       qrCode = await QRCode.toDataURL(this.qrCodeUri, {scale: 7});
       this.qrCodeImage = qrCode;
     }
