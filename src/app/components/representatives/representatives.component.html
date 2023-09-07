@@ -19,7 +19,9 @@
           <table class="uk-table uk-table-striped uk-table-small">
             <thead>
               <tr>
+                <!--
                 <th scope="col" class="representative-health-column-header hide-on-small-viewports">Status</th>
+                -->
                 <th scope="col" class="uk-width-expand">Representative</th>
                 <th scope="col" class="voting-weight-column-header uk-width-1-4 uk-text-right">Voting Weight</th>
               </tr>
@@ -28,6 +30,7 @@
               <ng-container *ngIf="!loadingRepresentatives">
               <ng-container *ngFor="let rep of representativeOverview">
                 <ng-template #representativeHealth>
+                  <!--
                   <ng-container [ngSwitch]="true">
                     <div class="representative-health-status health-green" *ngSwitchCase="(rep.statusText == 'trusted')">
                       <div class="health-icon"></div>
@@ -50,6 +53,7 @@
                       <div class="label">Unknown</div>
                     </div>
                   </ng-container>
+                -->
                 </ng-template>
                 <tr class="representative-row">
                   <td class="representative-health-column uk-visible-toggle uk-text-truncate hide-on-small-viewports">
@@ -58,9 +62,11 @@
                   <td class="representative-name-column uk-text-truncate rep-container" (click)="addSelectedAccounts(rep.accounts)">
                     <div class="representative-label-container">
                       <div class="account-label rep">{{ rep.label ? rep.label : 'Unknown Rep' }}</div>
+                      <!--
                       <div class="representative-weight-percentage uk-width-auto uk-flex-inline uk-flex-middle">
                         <div class="value uk-text-small text-half-muted" *ngIf="!rep.percent.isZero()">{{ rep.percent.toFixed(2) }}%</div>
                       </div>
+                    -->
                     </div>
                     <div class="representative-address uk-text-small uk-text-truncate">
                       <app-nano-account-id [accountID]="rep.id" middle="auto" class="nano-address-monospace"></app-nano-account-id>
