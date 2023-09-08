@@ -28,9 +28,10 @@
             </thead>
             <tbody>
               <ng-container *ngIf="!loadingRepresentatives">
-              <ng-container *ngFor="let rep of representativeOverview">
-                <ng-template #representativeHealth>
-                  <!--
+              
+                <ng-container *ngFor="let rep of representativeOverview">
+<!--
+                  <ng-template #representativeHealth>
                   <ng-container [ngSwitch]="true">
                     <div class="representative-health-status health-green" *ngSwitchCase="(rep.statusText == 'trusted')">
                       <div class="health-icon"></div>
@@ -53,12 +54,14 @@
                       <div class="label">Unknown</div>
                     </div>
                   </ng-container>
-                -->
                 </ng-template>
+                -->
                 <tr class="representative-row">
+                  <!--
                   <td class="representative-health-column uk-visible-toggle uk-text-truncate hide-on-small-viewports">
                     <ng-template [ngTemplateOutlet]="representativeHealth"></ng-template>
                   </td>
+                  -->
                   <td class="representative-name-column uk-text-truncate rep-container" (click)="addSelectedAccounts(rep.accounts)">
                     <div class="representative-label-container">
                       <div class="account-label rep">{{ rep.label ? rep.label : 'Unknown Rep' }}</div>
