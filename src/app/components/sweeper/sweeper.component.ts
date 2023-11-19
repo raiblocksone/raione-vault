@@ -379,8 +379,8 @@ export class SweeperComponent implements OnInit {
         raw = this.util.big.add(raw, data.blocks[key].amount);
       }.bind(this));
       const nanoAmount = this.util.nano.rawToMnano(raw);
-      const pending = {count: Object.keys(data.blocks).length, raw: raw, XRO: nanoAmount, blocks: data.blocks};
-      const row = 'Found ' + pending.count + ' pending containing total ' + pending.XRO + ' XRO';
+      const pending = {count: Object.keys(data.blocks).length, raw: raw, XRB: nanoAmount, blocks: data.blocks};
+      const row = 'Found ' + pending.count + ' pending containing total ' + pending.XRB + ' XRO';
       this.appendLog(row);
 
       // create receive blocks for all pending
