@@ -55,12 +55,12 @@ export class MultisigComponent implements OnInit {
       this.notificationService.sendWarning('Invalid RaiblocksOne address!', {identifier: 'account-invalid'});
       return;
     }
-    if (this.storedAccounts.includes(this.accountAdd.replace('nano_', 'xrb_').toLocaleLowerCase())) {
+    if (this.storedAccounts.includes(this.accountAdd.replace('nano_', 'xro_').toLocaleLowerCase())) {
       this.notificationService.removeNotification('account-added');
       this.notificationService.sendWarning('Account already added!', {identifier: 'account-added'});
       return;
     }
-    this.storedAccounts.push(this.accountAdd.replace('nano_', 'xrb_').toLocaleLowerCase());
+    this.storedAccounts.push(this.accountAdd.replace('nano_', 'xro_').toLocaleLowerCase());
     this.accountAdd = '';
     this.accountAddStatus = null;
     this.showAddBox = false;

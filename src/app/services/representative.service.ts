@@ -376,7 +376,7 @@ export class RepresentativeService {
 
     const newRepList = list.map(entry => {
       if (entry.id.indexOf('nano_') !== -1) {
-        entry.id = entry.id.replace('nano_', 'xrb_');
+        entry.id = entry.id.replace('nano_', 'xro_');
       }
       return entry;
     });
@@ -456,15 +456,15 @@ export class RepresentativeService {
   // eslint-disable-next-line @typescript-eslint/member-ordering
   defaultRepresentatives = [
     {
-      id: 'xrb_17xnzfitcg476uezh5ttso54f3i674hynr88jynoyonoi3i6a5ncrh6xd9tj',
+      id: 'xro_17xnzfitcg476uezh5ttso54f3i674hynr88jynoyonoi3i6a5ncrh6xd9tj',
       name: 'RaiOne-Vault #1',
     },
     {
-      id: 'xrb_1bt73fm1dwd5ibbgr465buzouomsth979e43jy9d3dsengogiwcngxmigigp',
+      id: 'xro_3hpcjgfzi81pixy4pkr3p4ngyq1sdi3arirfngjgbwno6zj4c19kt18r1q8t',
       name: 'RaiOne-Vault #2',
     },
     {
-      id: 'xrb_3qn4pwex9bx3jy34jg6ogxxngwq3fmb13trs78weybwbe9fg5msgehj9qrcn',
+      id: 'xro_3qn4pwex9bx3jy34jg6ogxxngwq3fmb13trs78weybwbe9fg5msgehj9qrcn',
       name: 'RaiblocksOne #1',
     },
   ];

@@ -56,7 +56,7 @@ export class SendComponent implements OnInit {
   addressAliasMatch = '';
 
   amounts = [
-    { name: 'XRB', shortName: 'XRB', value: 'mnano' },
+    { name: 'XRO', shortName: 'XRO', value: 'mnano' },
     { name: 'knano', shortName: 'knano', value: 'knano' },
     { name: 'nano', shortName: 'nano', value: 'nano' },
   ];
@@ -225,7 +225,7 @@ export class SendComponent implements OnInit {
 
     const destinationAddress = this.toAccountID || '';
 
-    const nanoURIScheme = /^xrb:.+$/g;
+    const nanoURIScheme = /^xro:.+$/g;
     const isNanoURI = nanoURIScheme.test(destinationAddress);
 
     if (isNanoURI === true) {
@@ -559,7 +559,7 @@ export class SendComponent implements OnInit {
       return this.notificationService.sendWarning(`From and to account are required`);
     }
     if (!this.validateAmount()) {
-      return this.notificationService.sendWarning(`Invalid XRB amount`);
+      return this.notificationService.sendWarning(`Invalid XRO amount`);
     }
 
     this.preparingTransaction = true;
@@ -588,7 +588,7 @@ export class SendComponent implements OnInit {
       return this.notificationService.sendWarning(`Amount is invalid`);
     }
     if (from.balanceBN.minus(rawAmount).lessThan(0)) {
-      return this.notificationService.sendError(`From account does not have enough XRB`);
+      return this.notificationService.sendError(`From account does not have enough XRO`);
     }
 
     // Determine a proper raw amount to show in the UI, if a decimal was entered

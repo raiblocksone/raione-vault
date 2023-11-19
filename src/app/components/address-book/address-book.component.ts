@@ -286,7 +286,7 @@ export class AddressBookComponent implements OnInit, AfterViewInit, OnDestroy {
     }
 
     // Remove spaces and convert to nano prefix
-    this.newAddressAccount = this.newAddressAccount.replace(/ /g, '').replace('nano_', 'xrb_');
+    this.newAddressAccount = this.newAddressAccount.replace(/ /g, '').replace('nano_', 'xro_');
 
     // If the name has been changed, make sure no other entries are using that name
     if ( (this.newAddressName !== this.previousAddressName) && this.addressBookService.nameExists(this.newAddressName) ) {

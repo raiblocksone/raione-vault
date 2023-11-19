@@ -47,7 +47,7 @@ export class ConfigureAppComponent implements OnInit {
   selectedLanguage = this.languages[0].id;
 
   denominations = [
-    { name: 'XRB', value: 'mnano' },
+    { name: 'XRO', value: 'mnano' },
     { name: 'knano', value: 'knano' },
     { name: 'nano', value: 'nano' },
   ];
@@ -155,7 +155,7 @@ export class ConfigureAppComponent implements OnInit {
   selectedDecentralizedAliasesOption = this.decentralizedAliasesOptions[0].value;
 
   prefixOptions = [
-     { name: 'xrb_', value: 'xrb' },
+     { name: 'xro_', value: 'xro' },
      //{ name: 'nano_', value: 'nano' },
      ];
   selectedPrefix = this.prefixOptions[0].value;
