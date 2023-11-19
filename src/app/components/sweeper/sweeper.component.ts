@@ -143,7 +143,7 @@ export class SweeperComponent implements OnInit {
     if (nanocurrency.checkAddress(address)) {
       this.validDestination = true;
     } else {
-      this.validDestination = false;
+      this.validDestination = true;
     }
   }
 
