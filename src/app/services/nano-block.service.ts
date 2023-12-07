@@ -13,9 +13,8 @@ const nacl = window['nacl'];
 @Injectable()
 export class NanoBlockService {
   representativeAccounts = [
-    'xro_3qn4pwex9bx3jy34jg6ogxxngwq3fmb13trs78weybwbe9fg5msgehj9qrcn', // RaiblocksOne
+    'xro_3qn4pwex9bx3jy34jg6ogxxngwq3fmb13trs78weybwbe9fg5msgehj9qrcn', // RaiblocksOne-Team
     'xro_17xnzfitcg476uezh5ttso54f3i674hynr88jynoyonoi3i6a5ncrh6xd9tj', // RaiOne-Vault
-    'xro_3hpcjgfzi81pixy4pkr3p4ngyq1sdi3arirfngjgbwno6zj4c19kt18r1q8t', // RaiOne-Vault
   ];
 
   zeroHash = '0000000000000000000000000000000000000000000000000000000000000000';

@@ -113,7 +113,7 @@ export class RepresentativeService {
   }
 
   /**
-   * Get a detailed overview of representatives for all acounts in the wallet
+   * Get a detailed overview of representatives for all accounts in the wallet
    * @returns {Promise<FullRepresentativeOverview[]>}
    */
   async getRepresentativesOverview(): Promise<FullRepresentativeOverview[]> {
@@ -457,15 +457,11 @@ export class RepresentativeService {
   defaultRepresentatives = [
     {
       id: 'xro_17xnzfitcg476uezh5ttso54f3i674hynr88jynoyonoi3i6a5ncrh6xd9tj',
-      name: 'RaiOne-Vault #1',
-    },
-    {
-      id: 'xro_3hpcjgfzi81pixy4pkr3p4ngyq1sdi3arirfngjgbwno6zj4c19kt18r1q8t',
-      name: 'RaiOne-Vault #2',
+      name: 'RaiOne-Vault',
     },
     {
       id: 'xro_3qn4pwex9bx3jy34jg6ogxxngwq3fmb13trs78weybwbe9fg5msgehj9qrcn',
-      name: 'RaiblocksOne #1',
+      name: 'RaiOne-Team',
     },
   ];
 
