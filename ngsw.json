@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1701952986848,
+  "timestamp": 1701954295511,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -183,7 +183,7 @@
   "hashTable": {
     "/assets/favicon/android-chrome-144x144.png": "1deacc144b1610c1980153f45dc514befbf6bec0",
     "/assets/favicon/apple-touch-icon.png": "4f5d77398aed78a45d725157a258556b626cafec",
-    "/assets/favicon/browserconfig.xml": "4508329475f540b1ec5397d6bc2a7425be58e0a7",
+    "/assets/favicon/browserconfig.xml": "45dfdfc74244fb9ad59428b8fe360a2f5f0fd695",
     "/assets/favicon/favicon-16x16.png": "6e4adfea82212089fd79f3d22056e12387857517",
     "/assets/favicon/favicon-32x32.png": "2c72ebda71adb7c4db85072406489ba880ba3b4b",
     "/assets/favicon/favicon.ico": "f221e5328e9a8fb18c9fe1228882870f36ea0b6f",
