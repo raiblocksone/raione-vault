@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1701951863353,
+  "timestamp": 1701952986848,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -181,15 +181,15 @@
     }
   ],
   "hashTable": {
-    "/assets/favicon/android-chrome-144x144.png": "f93c0d8e0c827b1962f8fd3970ff9de1aa2efb9e",
-    "/assets/favicon/apple-touch-icon.png": "cf0d113aaa91f55f40931a78adf12e492dc351aa",
-    "/assets/favicon/browserconfig.xml": "974aea18bda5a95802c06b80126ab1d96d91d708",
-    "/assets/favicon/favicon-16x16.png": "ebf8dc878c993dc50642daabaf14be871bdda581",
-    "/assets/favicon/favicon-32x32.png": "f196370c605b9b24592e93cb882a5f15998c077d",
-    "/assets/favicon/favicon.ico": "eff8785ed96e6159f323ff88428487900321169e",
-    "/assets/favicon/mstile-150x150.png": "5efbc3f45278640835e1863f28e609ac2aeca93a",
+    "/assets/favicon/android-chrome-144x144.png": "1deacc144b1610c1980153f45dc514befbf6bec0",
+    "/assets/favicon/apple-touch-icon.png": "4f5d77398aed78a45d725157a258556b626cafec",
+    "/assets/favicon/browserconfig.xml": "4508329475f540b1ec5397d6bc2a7425be58e0a7",
+    "/assets/favicon/favicon-16x16.png": "6e4adfea82212089fd79f3d22056e12387857517",
+    "/assets/favicon/favicon-32x32.png": "2c72ebda71adb7c4db85072406489ba880ba3b4b",
+    "/assets/favicon/favicon.ico": "f221e5328e9a8fb18c9fe1228882870f36ea0b6f",
+    "/assets/favicon/mstile-150x150.png": "ad7195d6b9f27d7eb78603378cbdb019f9a1d061",
     "/assets/favicon/safari-pinned-tab.svg": "208d26cd08b74fb42d9021576dcc774897fd2a96",
-    "/assets/favicon/site.webmanifest": "d2e843df5285190f56ed380fdcab40c55f690f1c",
+    "/assets/favicon/site.webmanifest": "02599498402cb4404fba20b2912068d430180815",
     "/assets/fonts/montserrat-v15-latin-300.eot": "79ffc50c09de54d30478eb89c6984bbcb41ba5f9",
     "/assets/fonts/montserrat-v15-latin-300.svg": "3b19cf1b5993dc957823374160cf69755191d0a5",
     "/assets/fonts/montserrat-v15-latin-300.ttf": "fa13735b7d7ded9465b8767bb8db107c0a3251fe",

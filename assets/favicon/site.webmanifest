@@ -1,20 +1,15 @@
 {
-  "name": "RaiOne-Vault",
-  "short_name": "RaiOne-Vault",
-  "icons": [
-    {
-      "src": "android-chrome-144x144.png",
-      "sizes": "144x144",
-      "type": "image/png"
-    },
-    {
-      "src": "android-chrome-144x144.png",
-      "sizes": "144x144",
-      "type": "image/png"
-    }
-  ],
-  "theme_color": "#22222A",
-  "background_color": "#22222A",
-  "display": "standalone",
-  "start_url": "/"
+    "name": "RaiOne-Vault",
+    "short_name": "RaiOne-Vault",
+    "icons": [
+        {
+            "src": "/android-chrome-144x144.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#22222a",
+    "background_color": "#22222a",
+    "display": "standalone",
+    "start_url": "/"
 }
