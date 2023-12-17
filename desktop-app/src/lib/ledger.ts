@@ -1,7 +1,7 @@
 import TransportNodeHid from '@ledgerhq/hw-transport-node-hid';
 import TransportNodeBle from '@ledgerhq/hw-transport-node-ble';
 import Transport from '@ledgerhq/hw-transport';
-import Nano from 'hw-app-nano';
+import Nano from 'hw-app-nano-xro';
 
 import * as rx from 'rxjs';
 
