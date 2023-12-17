@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import Nano from 'hw-app-nano';
+import Nano from 'hw-app-nano-xro';
 import TransportU2F from '@ledgerhq/hw-transport-u2f';
 import TransportUSB from '@ledgerhq/hw-transport-webusb';
 import TransportHID from '@ledgerhq/hw-transport-webhid';
