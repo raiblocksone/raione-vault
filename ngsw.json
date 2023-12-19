@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1702022099873,
+  "timestamp": 1703002350995,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "/cpupow.1b0c7179f5d0d4bc.worker.js",
         "/index.html",
-        "/main.9aaf1e0507c547c2.js",
+        "/main.44c104e382c851e8.js",
         "/manifest.webmanifest",
         "/polyfills.6ff8b11604869675.js",
         "/runtime.3b1039c4c83a4eff.js",
@@ -140,6 +140,7 @@
         "/open-sans-v20-latin-regular.e12beb98cfee8b95.ttf",
         "/qr-code.b97e9eeb5e6f1567.svg",
         "/raiblocksone-logo_dark.60657c85f8fa01a8.svg",
+        "/raiblocksone-logo_dark.9eecbc97c5ee6386.png",
         "/roboto-mono-v13-latin-regular.5ebb8c5b1b99813a.woff",
         "/roboto-mono-v13-latin-regular.72a36365d70383c3.woff2",
         "/roboto-mono-v13-latin-regular.897854091e34f10a.eot",
@@ -229,7 +230,7 @@
     "/assets/img/preview.png": "f20605f550fc9ed7ee481a49c018443ae129b4d1",
     "/assets/img/qr-code.svg": "a694020661b8f41d2b6a4eb4ffb98243a0cb9ab9",
     "/assets/img/raiblocksone-logo.png": "f20605f550fc9ed7ee481a49c018443ae129b4d1",
-    "/assets/img/raiblocksone-logo.svg": "947eac37f023e9544068ffbd77ff958ae03b705b",
+    "/assets/img/raiblocksone-logo.svg": "b6ae6b9ae21af592c7a8326161562bf6c06e6541",
     "/assets/img/raiblocksone-logo_dark.png": "caa0906ed6f52c4ec49ef3aa1cb93caa7814aa01",
     "/assets/img/raiblocksone-logo_dark.svg": "b6ae6b9ae21af592c7a8326161562bf6c06e6541",
     "/assets/img/raiblocksone-logo_light.png": "7c4ba4c9129a4aacfff1a70511764b58b67fc457",
@@ -257,8 +258,8 @@
     "/assets/lib/pow/thread.js": "a9b8d4c8aa9c999cc1833510e67d776648d39755",
     "/assets/lib/tweetnacl/nacl.js": "00891a2e7cbe79082f28f6d5f0dbd085f516ac83",
     "/cpupow.1b0c7179f5d0d4bc.worker.js": "2d8ac5de31b8bbdad4a3118f49e1b4397a559f44",
-    "/index.html": "72dd1e159dcaf396129ac6f6bc920cd6e1303eef",
-    "/main.9aaf1e0507c547c2.js": "577d821b827d2b74436ad267b7daf4b4ca09a181",
+    "/index.html": "6aa8bfb3790c8b6e82eb0ef971a5fc4045819e51",
+    "/main.44c104e382c851e8.js": "7633b3ae03e697a27f2db4da2cf3b2292a94298e",
     "/manifest.webmanifest": "fb9ce0116a92808e43c4203fa61fdcb255708437",
     "/montserrat-v15-latin-300.169464b41fd5a6ed.woff2": "cf6855b4b8fd9b7fc4d7adecd97080a70ad75c23",
     "/montserrat-v15-latin-300.1fb23400394501d6.eot": "79ffc50c09de54d30478eb89c6984bbcb41ba5f9",
@@ -293,6 +294,7 @@
     "/polyfills.6ff8b11604869675.js": "4f871ba19b72fa33c50377b7b6aa2c9153519869",
     "/qr-code.b97e9eeb5e6f1567.svg": "a694020661b8f41d2b6a4eb4ffb98243a0cb9ab9",
     "/raiblocksone-logo_dark.60657c85f8fa01a8.svg": "b6ae6b9ae21af592c7a8326161562bf6c06e6541",
+    "/raiblocksone-logo_dark.9eecbc97c5ee6386.png": "caa0906ed6f52c4ec49ef3aa1cb93caa7814aa01",
     "/roboto-mono-v13-latin-regular.5ebb8c5b1b99813a.woff": "3f1bdd2cb69992c6cbf901c013c80302f4f6d54e",
     "/roboto-mono-v13-latin-regular.72a36365d70383c3.woff2": "6bdf57408a458ab19e554ed1cec1f73107dae3ce",
     "/roboto-mono-v13-latin-regular.897854091e34f10a.eot": "b0b3dc4d2c0877eef3f9032a142c2bd57349a89a",
