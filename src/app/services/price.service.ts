@@ -30,7 +30,7 @@ export class PriceService {
     //const currencyPrice = quote[currency.toLowerCase()];
     //const btcPrice = quote.btc;
     const quote = response;
-    const currencyPrice = quote[4].midPriceUSD;
+    const currencyPrice = quote[4].midPriceUSD.toFixed(8); 
 
     this.price.lastPrice = currencyPrice;
     //this.price.lastPrice = 0;
