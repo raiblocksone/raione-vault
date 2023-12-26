@@ -13,4 +13,5 @@ RUN npm run wallet:build
 FROM nginx:1.21-alpine
 COPY .docker/nginx.conf /etc/nginx/nginx.conf
 COPY --from=build /usr/src/app/dist /usr/share/nginx/html
-RUN apk upgrade --no-cache
+# only for local deployment
+# RUN apk upgrade --no-cache
