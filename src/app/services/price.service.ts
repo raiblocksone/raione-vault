@@ -6,7 +6,8 @@ import {BehaviorSubject} from 'rxjs';
 export class PriceService {
   storeKey = `nanovault-price`;
   //apiUrl = `https://api.coingecko.com/api/v3/coins/nano?localization=false&tickers=false&market_data=true&community_data=false&developer_data=false&sparkline=false`;
-  apiUrl = `xxx`;
+  //apiUrl = `xxx`;
+  apiUrl = `https://data.nanswap.com/get-markets`;
 
   price = {
     lastPrice: 0,
@@ -25,18 +26,20 @@ export class PriceService {
       return this.price.lastPrice;
     }
 
-    const quote = response.market_data.current_price;
-    const currencyPrice = quote[currency.toLowerCase()];
-    const btcPrice = quote.btc;
+    //const quote = response.market_data.current_price;
+    //const currencyPrice = quote[currency.toLowerCase()];
+    //const btcPrice = quote.btc;
+    const quote = response;
+    const currencyPrice = quote[4].midPriceUSD;
 
-    //this.price.lastPrice = currencyPrice;
-    this.price.lastPrice = 0;
+    this.price.lastPrice = currencyPrice;
+    //this.price.lastPrice = 0;
     //this.price.lastPriceBTC = btcPrice;
     this.price.lastPriceBTC = 0;
 
     this.savePrice();
 
-    //this.lastPrice$.next(currencyPrice);
+    this.lastPrice$.next(currencyPrice);
 
     return this.price.lastPrice;
   }
