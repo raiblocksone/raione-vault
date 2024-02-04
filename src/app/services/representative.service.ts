@@ -463,6 +463,14 @@ export class RepresentativeService {
       id: 'xro_3qn4pwex9bx3jy34jg6ogxxngwq3fmb13trs78weybwbe9fg5msgehj9qrcn',
       name: 'RaiOne-Team',
     },
+    {
+      id: 'xro_31m77pcy8wpyfm7z749z76y3n8tgj94b4gtbpdnwtwxmeikh1rjwpfuzb3a3',
+      name: 'KayDee',
+    },
+    {
+      id: 'xro_3z4u1upq8e798pj669tki5osyit6jmyzwn6cba56pnsp77hna8ze9gku93np',
+      name: 'MyEcoria',
+    },
   ];
 
   // Bad representatives hardcoded to be avoided. Not visible in the user rep list
