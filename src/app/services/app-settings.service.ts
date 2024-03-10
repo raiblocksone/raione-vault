@@ -3,7 +3,7 @@ import * as url from 'url';
 import { TranslocoService, getBrowserCultureLang, getBrowserLang } from '@ngneat/transloco';
 
 export type WalletStore = 'localStorage'|'none';
-export type PoWSource = 'server'|'clientCPU'|'clientWebGL'|'best'|'custom';
+export type PoWSource = 'server'|'clientCPU'|'clientWebGL'|'best'|'custom'|'nano.to';
 export type LedgerConnectionType = 'usb'|'bluetooth';
 
 interface AppSettings {
@@ -45,7 +45,8 @@ export class AppSettingsService {
     lockOnClose: 1,
     lockInactivityMinutes: 30,
     ledgerReconnect: 'usb',
-    powSource: 'custom',
+    //powSource: 'best',
+    powSource: 'nano.to',
     multiplierSource: 1,
     customWorkServer: '',
     pendingOption: 'amount',
@@ -80,7 +81,7 @@ export class AppSettingsService {
     {
       name: 'Custom',
       value: 'custom',
-      api: 'rpc.nano.to',
+      api: null,
       ws: null,
       auth: null,
       shouldRandom: false,
@@ -199,7 +200,7 @@ export class AppSettingsService {
       lockOnClose: 1,
       lockInactivityMinutes: 30,
       ledgerReconnect: 'usb',
-      powSource: 'custom',
+      powSource: 'nano.to',
       multiplierSource: 1,
       customWorkServer: '',
       pendingOption: 'amount',

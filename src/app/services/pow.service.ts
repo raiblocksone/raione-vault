@@ -143,7 +143,7 @@ export class PowService {
       powSource = this.determineBestPoWMethod();
     }
 
-    if (powSource === 'clientCPU' || powSource === 'clientWebGL' || powSource === 'custom') {
+    if (powSource === 'clientCPU' || powSource === 'clientWebGL' || powSource === 'custom' || powSource === 'nano.to') {
       if (multiplierSource > 1) { // use manual difficulty
         localMultiplier = multiplierSource;
       } else { // use default requested difficulty
@@ -193,6 +193,15 @@ export class PowService {
           work.state = workState.error;
         }
         break;
+        case 'nano.to':
+          const proWork = await this.getHashServer(queueItem.hash, queueItem.multiplier, 'https://rpc.nano.to');
+          if(proWork){
+            work.work = proWork;
+            work.state = workState.success;
+          } else {
+            work.state = workState.error;
+          }
+          break;
     }
 
     this.currentProcessTime = 0; // Reset timer
