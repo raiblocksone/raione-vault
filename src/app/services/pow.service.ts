@@ -233,9 +233,10 @@ export class PowService {
       newThreshold + ' using ' + serverString + ' server for hash: ', hash);
     return await this.api.workGenerate(hash, newThreshold, workServer)
     .then(work => work.work)
-    // Do not fallback to CPU pow. Let the user decide
-    // .catch(async err => await this.getHashCPUWorker(hash, multiplier))
-    .catch(err => null);
+    //Fallback to CPU pow
+    .catch(async err => await this.getHashCPUWorker(hash, multiplier))
+    // Do not fallback to CPU pow. Let the user decide. Comment the next part in and the part before out
+    //.catch(err => null);
   }
 
   /**
